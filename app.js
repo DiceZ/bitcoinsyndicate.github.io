@@ -4,13 +4,13 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 71,                             // <----------------------------- EDIT ME!
+  app_id: 1346,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Bitcoin Syndicate Dice',
+  app_name: 'Syndicate Dice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LcoBggTAAAAAD16CRmMLNrwv6QSN-t0_ln-HVVJ',  // <----- EDIT ME!
-  redirect_uri: 'https://bitcoinsyndicate.github.io',
+  recaptcha_sitekey: '6LexiiMTAAAAAPgk61SMBRTB27tlrzKl87arwrgN',  // <----- EDIT ME!
+  redirect_uri: 'https://syndicate.manydice.ml',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: 'https://a-chat-server.herokuapp.com',
@@ -1762,7 +1762,7 @@ var Footer = React.createClass({
       'Powered by ',
       el.a(
         {
-          href: 'https://www.moneypot.com'
+          href: 'https://www.moneypot.com/apps/1346'
         },
         'Moneypot'
       )
